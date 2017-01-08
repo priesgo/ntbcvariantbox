@@ -3,11 +3,13 @@ package org.tobedefined.ntbcvariantbox.storage.mongodb.curatedvariant.adaptors;
 import org.junit.Before;
 import org.junit.Test;
 import org.opencb.biodata.models.variant.*;
+import org.opencb.opencga.storage.core.config.DatabaseCredentials;
 import org.opencb.opencga.storage.mongodb.auth.MongoCredentials;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Arrays;
+
 
 /**
  * Created by priesgo on 07/01/17.
@@ -22,13 +24,14 @@ public class CuratedVariantMongoDBAdapterTest {
     @Before
     public void setUp() throws Exception {
         this.mongoCredentials = new MongoCredentials(
-                "127.0.0.1",
+                "localhost",
                 27017,
-                "CuratedVariantMongoDBAdapterTest",
-                "test",
-                "test",
+                "mydb",
+                "",
+                "",
                 false
         );
+        //NOTE: authenticated loin does not work, don't know why...
         this.factory = new VariantVcfFactory();
         this.source = new VariantSource(
                 "filename.vcf",
