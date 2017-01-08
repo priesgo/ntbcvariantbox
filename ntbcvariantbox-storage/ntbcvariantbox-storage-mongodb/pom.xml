@@ -18,11 +18,6 @@
         <!-- Intra-module dependencies -->
         <dependency>
             <groupId>org.tobedefined.ntbcvariantbox</groupId>
-            <artifactId>ntbcvariantbox-storage</artifactId>
-            <version>${ntbcvariantbox.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.tobedefined.ntbcvariantbox</groupId>
             <artifactId>ntbcvariantbox-storage-core</artifactId>
             <version>${ntbcvariantbox.version}</version>
         </dependency>
