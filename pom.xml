@@ -7,6 +7,7 @@
     <groupId>org.tobedefined.ntbcvariantbox</groupId>
     <artifactId>ntbcvariantbox</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>ntbcvariantbox-storage</module>
@@ -39,11 +40,7 @@
 
     <dependencies>
         <!-- Intra-module dependencies -->
-        <dependency>
-            <groupId>org.tobedefined.ntbcvariantbox</groupId>
-            <artifactId>ntbcvariantbox-storage</artifactId>
-            <version>${ntbcvariantbox.version}</version>
-        </dependency>
+        <!--
         <dependency>
             <groupId>org.tobedefined.ntbcvariantbox</groupId>
             <artifactId>ntbcvariantbox-storage-core</artifactId>
@@ -54,6 +51,7 @@
             <artifactId>ntbcvariantbox-storage-mongodb</artifactId>
             <version>${ntbcvariantbox.version}</version>
         </dependency>
+        -->
         <!-- OpenCB dependencies -->
         <dependency>
             <groupId>org.opencb.opencga</groupId>
