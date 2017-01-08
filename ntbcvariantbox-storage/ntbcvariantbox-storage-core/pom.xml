@@ -6,12 +6,12 @@
     <parent>
         <groupId>org.tobedefined.ntbcvariantbox</groupId>
         <artifactId>ntbcvariantbox-storage</artifactId>
-        <version>${ntbcvariantbox.version}</version>
+        <version>1.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>ntbcvariantbox-storage-core</artifactId>
-    <version>${ntbcvariantbox.version}</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <dependencies>

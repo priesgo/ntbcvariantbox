@@ -11,7 +11,7 @@
 
     <!-- Version must be set to a literal, variables cannot be used in nested modules -->
     <artifactId>ntbcvariantbox-storage</artifactId>
-    <version>${ntbcvariantbox.version}</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <modules>
